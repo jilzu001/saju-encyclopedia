@@ -4,6 +4,8 @@
 @media(max-width:900px){.layout{display:block}aside{display:none}main{padding:24px}.header-inner{padding:22px 24px;align-items:flex-start}nav{padding:0 24px 16px}.search-wrap{padding:20px 24px}}
 @media(max-width:560px){.header-inner{padding:20px 16px;display:block}.font-tools{margin-top:16px}.brand{font-size:1.15rem}.brand span{font-size:.8rem}nav{padding:0 16px 16px;gap:8px}nav a{font-size:.8rem;padding:6px 10px}.search-wrap{padding:16px}main{padding:24px 16px}.hero h1{font-size:1.55rem}.cards{grid-template-columns:1fr}.panel{padding:18px}.form-grid{grid-template-columns:1fr}.pillars{grid-template-columns:repeat(2,minmax(0,1fr))}.cycle-list{grid-template-columns:1fr}.search-row button{padding:10px}.category-card{padding:18px}footer{padding:24px 16px}}
 .form-grid>div{min-width:0}legend{max-width:100%;overflow-wrap:anywhere}label{overflow-wrap:anywhere}
+.time-label{font-weight:650;margin-bottom:8px}.time-selects{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:8px}.time-selects>div{min-width:0}.time-selects label{font-size:max(16px,.8rem)}
+@media(max-width:560px){.time-selects{grid-template-columns:minmax(0,1fr)}}
 small,.meta,.eyebrow,.brand span,.font-tools output,.badge,.category-card span,.tree-sub>.tree-toggle,.related span,.notice,.pillar span,footer,.chapter-hook,.pillar details{font-size:max(16px,.8rem)}
 @media(max-width:560px){nav a{font-size:max(16px,.8rem)}}
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
