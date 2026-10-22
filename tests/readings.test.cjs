@@ -18,3 +18,28 @@ test('selected year has the correct sexagenary pair, god and only new year inter
 test('source links are explicit references and do not claim verified original pages',()=>{for(const s of Object.values(R.sources)){if(s.url)assert.match(s.url,/^https:\/\//);assert.ok(s.note&&s.kind)}assert.match(R.disclosure,/참고 해설/)});
 test('original five Xin/Shen link errors are flagged while all 150 original relations are retained',()=>{const by=new Map(db.terms.map(t=>[t.id,t]));const flagged=db.relations.filter(([a,b,type])=>R.relationNeedsReview(by.get(a),by.get(b),type));assert.equal(flagged.length,5);assert.equal(db.relations.length,150);for(const [id] of flagged){const parts=R.composition(by.get(id),db);assert.equal(parts[1].hanja,'申');assert.equal(parts[1].id,'T0044');}for(const t of db.terms.filter(t=>t.subcategory==='육십갑자'))assert.equal(R.composition(t,db).map(t=>t.hanja).join(''),t.hanja)});
 test('a complete sixty-day cycle always produces a complete reading for every day pillar',()=>{const seen=new Set();for(let i=0;i<60;i++){const date=new Date(Date.UTC(2024,0,1+i));const chart=C.calculate({year:date.getUTCFullYear(),month:date.getUTCMonth()+1,day:date.getUTCDate(),hour:12});seen.add(chart.pillars[2].pair);const profile=R.chartProfile(chart),year=R.yearReading(chart,2026);assert.ok(profile.dayHook&&profile.stem.scene&&profile.branch[0]);assert.ok(profile.monthMain.god);assert.equal(profile.groups.reduce((n,g)=>n+g.count,0),3);assert.ok(year.hook&&year.action);assert.ok(!JSON.stringify({profile,year}).includes('undefined'));}assert.equal(seen.size,60)});
+
+test('clicked pillars use their own position and compare the actual stem with the day master',()=>{
+ const d=C.calculate({year:1979,month:9,day:8,hour:3,minute:30});
+ assert.deepEqual(d.pillars.map(p=>p.pair),['己未','壬申','戊寅','甲寅']);
+ const year=R.pillarReading(d,0),month=R.pillarReading(d,1),day=R.pillarReading(d,2),time=R.pillarReading(d,3);
+ assert.match(year.title,/연주 기미/);assert.match(year.comparison,/무 \(戊\).*기 \(己\).*겁재/);assert.equal(year.god,'겁재');
+ assert.match(month.definition,/일·사회생활/);assert.equal(month.god,'편재');assert.match(month.composition,/임 \(壬\)/);
+ assert.equal(day.god,null);assert.match(day.comparison,/무 \(戊\)/);assert.equal(time.god,'편관');
+ assert.equal(new Set([year,month,day,time].map(p=>p.context)).size,4);
+});
+test('plain-language concepts identify the actual day master and exact hidden stems',()=>{
+ const d=C.calculate({year:1979,month:9,day:8,hour:3,minute:30});
+ assert.match(R.conceptReading(d,'일간').lines.join(''),/무인 \(戊寅\).*무 \(戊\)/);
+ const gods=R.conceptReading(d,'십성');assert.equal(gods.items.length,4);assert.match(gods.items[2].text,/나 자신/);
+ const hidden=R.conceptReading(d,'지장간',0);assert.equal(hidden.items.length,3);
+ assert.deepEqual(hidden.items.map(x=>x.title),['연주 미 (未) 속 기 (己) → 겁재','연주 미 (未) 속 정 (丁) → 정인','연주 미 (未) 속 을 (乙) → 정관']);
+ assert.match(R.conceptReading(d,'십성',1).items[0].title,/월주 임 \(壬\) → 편재/);
+});
+test('personal explanations change with the chart and never invent an unknown hour',()=>{
+ const a=C.calculate({year:1979,month:9,day:8,hour:3,minute:30}),b=C.calculate({year:2005,month:12,day:23,hour:8,minute:37}),u=C.calculate({year:1979,month:9,day:8,unknown:true});
+ assert.notEqual(R.conceptReading(a,'일간').lines[0],R.conceptReading(b,'일간').lines[0]);
+ assert.equal(R.pillarReading(u,3).unknown,true);assert.ok(!R.pillarReading(u,3).pair);assert.equal(R.conceptReading(u,'지장간',3).items.length,0);
+ assert.equal(R.conceptReading(u,'십성').items.length,3);assert.ok(R.conceptReading(u,'지장간').items.every(i=>!i.title.startsWith('시주')));
+ for(const d of [a,b,u])for(const name of ['일간','십성','지장간'])assert.ok(!JSON.stringify(R.conceptReading(d,name)).includes('undefined'));
+});
