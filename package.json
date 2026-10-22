@@ -1,0 +1,12 @@
+{
+  "name": "saju-encyclopedia",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "validate": "node scripts/validate.cjs",
+    "test": "node --test tests/*.test.cjs",
+    "build": "npm run validate && npm test && node scripts/build.cjs",
+    "dev": "node scripts/serve.cjs"
+  },
+  "dependencies": { "lunar-javascript": "1.7.7", "korean-lunar-calendar": "0.4.0" }
+}

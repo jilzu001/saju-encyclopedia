@@ -1,0 +1,3282 @@
+{
+  "terms": [
+    {
+      "id": "T0001",
+      "category": "사주 기초",
+      "subcategory": "기둥과 명식",
+      "name": "사주",
+      "hanja": "四柱",
+      "definition": "태어난 연·월·일·시의 네 간지 기둥",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0002",
+      "category": "사주 기초",
+      "subcategory": "기둥과 명식",
+      "name": "팔자",
+      "hanja": "八字",
+      "definition": "네 기둥에 놓인 여덟 글자",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0003",
+      "category": "사주 기초",
+      "subcategory": "기둥과 명식",
+      "name": "명식",
+      "hanja": "命式",
+      "definition": "사주팔자를 정리해 배열한 표",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0004",
+      "category": "사주 기초",
+      "subcategory": "기둥과 명식",
+      "name": "원국",
+      "hanja": "原局",
+      "definition": "태어난 시점의 네 기둥",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0005",
+      "category": "사주 기초",
+      "subcategory": "기둥과 명식",
+      "name": "연주",
+      "hanja": "年柱",
+      "definition": "출생 연도의 간지 기둥",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0006",
+      "category": "사주 기초",
+      "subcategory": "기둥과 명식",
+      "name": "월주",
+      "hanja": "月柱",
+      "definition": "출생 월의 간지 기둥",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0007",
+      "category": "사주 기초",
+      "subcategory": "기둥과 명식",
+      "name": "일주",
+      "hanja": "日柱",
+      "definition": "출생 날짜의 간지 기둥",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0008",
+      "category": "사주 기초",
+      "subcategory": "기둥과 명식",
+      "name": "시주",
+      "hanja": "時柱",
+      "definition": "출생 시간의 간지 기둥",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0009",
+      "category": "사주 기초",
+      "subcategory": "기둥과 명식",
+      "name": "천간",
+      "hanja": "天干",
+      "definition": "기둥 위에 놓는 10가지 기호",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0010",
+      "category": "사주 기초",
+      "subcategory": "기둥과 명식",
+      "name": "지지",
+      "hanja": "地支",
+      "definition": "기둥 아래에 놓는 12가지 기호",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0011",
+      "category": "사주 기초",
+      "subcategory": "기둥과 명식",
+      "name": "연간",
+      "hanja": "年干",
+      "definition": "연주의 천간",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0012",
+      "category": "사주 기초",
+      "subcategory": "기둥과 명식",
+      "name": "연지",
+      "hanja": "年支",
+      "definition": "연주의 지지",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0013",
+      "category": "사주 기초",
+      "subcategory": "기둥과 명식",
+      "name": "월간",
+      "hanja": "月干",
+      "definition": "월주의 천간",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0014",
+      "category": "사주 기초",
+      "subcategory": "기둥과 명식",
+      "name": "월지",
+      "hanja": "月支",
+      "definition": "월주의 지지",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0015",
+      "category": "사주 기초",
+      "subcategory": "기둥과 명식",
+      "name": "일간",
+      "hanja": "日干",
+      "definition": "일주의 천간으로 십성 판단의 기준",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0016",
+      "category": "사주 기초",
+      "subcategory": "기둥과 명식",
+      "name": "일지",
+      "hanja": "日支",
+      "definition": "일주의 지지",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0017",
+      "category": "사주 기초",
+      "subcategory": "기둥과 명식",
+      "name": "시간",
+      "hanja": "時干",
+      "definition": "시주의 천간",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0018",
+      "category": "사주 기초",
+      "subcategory": "기둥과 명식",
+      "name": "시지",
+      "hanja": "時支",
+      "definition": "시주의 지지",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0019",
+      "category": "사주 기초",
+      "subcategory": "역법과 계산",
+      "name": "만세력",
+      "hanja": "萬歲曆",
+      "definition": "날짜와 시간을 간지로 대응시키는 역법 자료",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0020",
+      "category": "사주 기초",
+      "subcategory": "역법과 계산",
+      "name": "절기",
+      "hanja": "節氣",
+      "definition": "태양의 위치를 기준으로 구분한 계절 지점",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0021",
+      "category": "사주 기초",
+      "subcategory": "역법과 계산",
+      "name": "절입",
+      "hanja": "節入",
+      "definition": "절기가 시작되는 시각",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0022",
+      "category": "사주 기초",
+      "subcategory": "역법과 계산",
+      "name": "입춘",
+      "hanja": "立春",
+      "definition": "연주를 구분하는 데 흔히 쓰는 절기 경계",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0023",
+      "category": "사주 기초",
+      "subcategory": "역법과 계산",
+      "name": "야자시",
+      "hanja": "夜子時",
+      "definition": "밤 자시의 날짜 귀속을 다루는 해석법",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0024",
+      "category": "사주 기초",
+      "subcategory": "역법과 계산",
+      "name": "조자시",
+      "hanja": "早子時",
+      "definition": "새벽 자시의 날짜 귀속을 다루는 해석법",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0025",
+      "category": "사주 기초",
+      "subcategory": "역법과 계산",
+      "name": "일주론",
+      "hanja": "日柱論",
+      "definition": "일주를 중심으로 성향 등을 읽는 접근",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0026",
+      "category": "간지와 오행",
+      "subcategory": "십천간",
+      "name": "갑",
+      "hanja": "甲",
+      "definition": "양목에 속하는 천간. 상징적 비유: 큰 나무",
+      "source": "전통 명리학 일반 용례",
+      "kind": "stem"
+    },
+    {
+      "id": "T0027",
+      "category": "간지와 오행",
+      "subcategory": "십천간",
+      "name": "을",
+      "hanja": "乙",
+      "definition": "음목에 속하는 천간. 상징적 비유: 풀·덩굴",
+      "source": "전통 명리학 일반 용례",
+      "kind": "stem"
+    },
+    {
+      "id": "T0028",
+      "category": "간지와 오행",
+      "subcategory": "십천간",
+      "name": "병",
+      "hanja": "丙",
+      "definition": "양화에 속하는 천간. 상징적 비유: 태양",
+      "source": "전통 명리학 일반 용례",
+      "kind": "stem"
+    },
+    {
+      "id": "T0029",
+      "category": "간지와 오행",
+      "subcategory": "십천간",
+      "name": "정",
+      "hanja": "丁",
+      "definition": "음화에 속하는 천간. 상징적 비유: 등불",
+      "source": "전통 명리학 일반 용례",
+      "kind": "stem"
+    },
+    {
+      "id": "T0030",
+      "category": "간지와 오행",
+      "subcategory": "십천간",
+      "name": "무",
+      "hanja": "戊",
+      "definition": "양토에 속하는 천간. 상징적 비유: 산",
+      "source": "전통 명리학 일반 용례",
+      "kind": "stem"
+    },
+    {
+      "id": "T0031",
+      "category": "간지와 오행",
+      "subcategory": "십천간",
+      "name": "기",
+      "hanja": "己",
+      "definition": "음토에 속하는 천간. 상징적 비유: 밭",
+      "source": "전통 명리학 일반 용례",
+      "kind": "stem"
+    },
+    {
+      "id": "T0032",
+      "category": "간지와 오행",
+      "subcategory": "십천간",
+      "name": "경",
+      "hanja": "庚",
+      "definition": "양금에 속하는 천간. 상징적 비유: 쇠",
+      "source": "전통 명리학 일반 용례",
+      "kind": "stem"
+    },
+    {
+      "id": "T0033",
+      "category": "간지와 오행",
+      "subcategory": "십천간",
+      "name": "신",
+      "hanja": "辛",
+      "definition": "음금에 속하는 천간. 상징적 비유: 보석",
+      "source": "전통 명리학 일반 용례",
+      "kind": "stem"
+    },
+    {
+      "id": "T0034",
+      "category": "간지와 오행",
+      "subcategory": "십천간",
+      "name": "임",
+      "hanja": "壬",
+      "definition": "양수에 속하는 천간. 상징적 비유: 강·바다",
+      "source": "전통 명리학 일반 용례",
+      "kind": "stem"
+    },
+    {
+      "id": "T0035",
+      "category": "간지와 오행",
+      "subcategory": "십천간",
+      "name": "계",
+      "hanja": "癸",
+      "definition": "음수에 속하는 천간. 상징적 비유: 비·이슬",
+      "source": "전통 명리학 일반 용례",
+      "kind": "stem"
+    },
+    {
+      "id": "T0036",
+      "category": "간지와 오행",
+      "subcategory": "십이지지",
+      "name": "자",
+      "hanja": "子",
+      "definition": "수에 속하는 지지. 상징 동물: 쥐",
+      "source": "전통 명리학 일반 용례",
+      "kind": "branch"
+    },
+    {
+      "id": "T0037",
+      "category": "간지와 오행",
+      "subcategory": "십이지지",
+      "name": "축",
+      "hanja": "丑",
+      "definition": "토에 속하는 지지. 상징 동물: 소",
+      "source": "전통 명리학 일반 용례",
+      "kind": "branch"
+    },
+    {
+      "id": "T0038",
+      "category": "간지와 오행",
+      "subcategory": "십이지지",
+      "name": "인",
+      "hanja": "寅",
+      "definition": "목에 속하는 지지. 상징 동물: 호랑이",
+      "source": "전통 명리학 일반 용례",
+      "kind": "branch"
+    },
+    {
+      "id": "T0039",
+      "category": "간지와 오행",
+      "subcategory": "십이지지",
+      "name": "묘",
+      "hanja": "卯",
+      "definition": "목에 속하는 지지. 상징 동물: 토끼",
+      "source": "전통 명리학 일반 용례",
+      "kind": "branch"
+    },
+    {
+      "id": "T0040",
+      "category": "간지와 오행",
+      "subcategory": "십이지지",
+      "name": "진",
+      "hanja": "辰",
+      "definition": "토에 속하는 지지. 상징 동물: 용",
+      "source": "전통 명리학 일반 용례",
+      "kind": "branch"
+    },
+    {
+      "id": "T0041",
+      "category": "간지와 오행",
+      "subcategory": "십이지지",
+      "name": "사",
+      "hanja": "巳",
+      "definition": "화에 속하는 지지. 상징 동물: 뱀",
+      "source": "전통 명리학 일반 용례",
+      "kind": "branch"
+    },
+    {
+      "id": "T0042",
+      "category": "간지와 오행",
+      "subcategory": "십이지지",
+      "name": "오",
+      "hanja": "午",
+      "definition": "화에 속하는 지지. 상징 동물: 말",
+      "source": "전통 명리학 일반 용례",
+      "kind": "branch"
+    },
+    {
+      "id": "T0043",
+      "category": "간지와 오행",
+      "subcategory": "십이지지",
+      "name": "미",
+      "hanja": "未",
+      "definition": "토에 속하는 지지. 상징 동물: 양",
+      "source": "전통 명리학 일반 용례",
+      "kind": "branch"
+    },
+    {
+      "id": "T0044",
+      "category": "간지와 오행",
+      "subcategory": "십이지지",
+      "name": "신",
+      "hanja": "申",
+      "definition": "금에 속하는 지지. 상징 동물: 원숭이",
+      "source": "전통 명리학 일반 용례",
+      "kind": "branch"
+    },
+    {
+      "id": "T0045",
+      "category": "간지와 오행",
+      "subcategory": "십이지지",
+      "name": "유",
+      "hanja": "酉",
+      "definition": "금에 속하는 지지. 상징 동물: 닭",
+      "source": "전통 명리학 일반 용례",
+      "kind": "branch"
+    },
+    {
+      "id": "T0046",
+      "category": "간지와 오행",
+      "subcategory": "십이지지",
+      "name": "술",
+      "hanja": "戌",
+      "definition": "토에 속하는 지지. 상징 동물: 개",
+      "source": "전통 명리학 일반 용례",
+      "kind": "branch"
+    },
+    {
+      "id": "T0047",
+      "category": "간지와 오행",
+      "subcategory": "십이지지",
+      "name": "해",
+      "hanja": "亥",
+      "definition": "수에 속하는 지지. 상징 동물: 돼지",
+      "source": "전통 명리학 일반 용례",
+      "kind": "branch"
+    },
+    {
+      "id": "T0048",
+      "category": "간지와 오행",
+      "subcategory": "육십갑자",
+      "name": "갑자",
+      "hanja": "甲子",
+      "definition": "1번째 육십갑자. 천간 갑(목)과 지지 자(수)의 결합",
+      "source": "전통 명리학 일반 용례",
+      "kind": "sexagenary"
+    },
+    {
+      "id": "T0049",
+      "category": "간지와 오행",
+      "subcategory": "육십갑자",
+      "name": "을축",
+      "hanja": "乙丑",
+      "definition": "2번째 육십갑자. 천간 을(목)과 지지 축(토)의 결합",
+      "source": "전통 명리학 일반 용례",
+      "kind": "sexagenary"
+    },
+    {
+      "id": "T0050",
+      "category": "간지와 오행",
+      "subcategory": "육십갑자",
+      "name": "병인",
+      "hanja": "丙寅",
+      "definition": "3번째 육십갑자. 천간 병(화)과 지지 인(목)의 결합",
+      "source": "전통 명리학 일반 용례",
+      "kind": "sexagenary"
+    },
+    {
+      "id": "T0051",
+      "category": "간지와 오행",
+      "subcategory": "육십갑자",
+      "name": "정묘",
+      "hanja": "丁卯",
+      "definition": "4번째 육십갑자. 천간 정(화)과 지지 묘(목)의 결합",
+      "source": "전통 명리학 일반 용례",
+      "kind": "sexagenary"
+    },
+    {
+      "id": "T0052",
+      "category": "간지와 오행",
+      "subcategory": "육십갑자",
+      "name": "무진",
+      "hanja": "戊辰",
+      "definition": "5번째 육십갑자. 천간 무(토)과 지지 진(토)의 결합",
+      "source": "전통 명리학 일반 용례",
+      "kind": "sexagenary"
+    },
+    {
+      "id": "T0053",
+      "category": "간지와 오행",
+      "subcategory": "육십갑자",
+      "name": "기사",
+      "hanja": "己巳",
+      "definition": "6번째 육십갑자. 천간 기(토)과 지지 사(화)의 결합",
+      "source": "전통 명리학 일반 용례",
+      "kind": "sexagenary"
+    },
+    {
+      "id": "T0054",
+      "category": "간지와 오행",
+      "subcategory": "육십갑자",
+      "name": "경오",
+      "hanja": "庚午",
+      "definition": "7번째 육십갑자. 천간 경(금)과 지지 오(화)의 결합",
+      "source": "전통 명리학 일반 용례",
+      "kind": "sexagenary"
+    },
+    {
+      "id": "T0055",
+      "category": "간지와 오행",
+      "subcategory": "육십갑자",
+      "name": "신미",
+      "hanja": "辛未",
+      "definition": "8번째 육십갑자. 천간 신(금)과 지지 미(토)의 결합",
+      "source": "전통 명리학 일반 용례",
+      "kind": "sexagenary"
+    },
+    {
+      "id": "T0056",
+      "category": "간지와 오행",
+      "subcategory": "육십갑자",
+      "name": "임신",
+      "hanja": "壬申",
+      "definition": "9번째 육십갑자. 천간 임(수)과 지지 신(금)의 결합",
+      "source": "전통 명리학 일반 용례",
+      "kind": "sexagenary"
+    },
+    {
+      "id": "T0057",
+      "category": "간지와 오행",
+      "subcategory": "육십갑자",
+      "name": "계유",
+      "hanja": "癸酉",
+      "definition": "10번째 육십갑자. 천간 계(수)과 지지 유(금)의 결합",
+      "source": "전통 명리학 일반 용례",
+      "kind": "sexagenary"
+    },
+    {
+      "id": "T0058",
+      "category": "간지와 오행",
+      "subcategory": "육십갑자",
+      "name": "갑술",
+      "hanja": "甲戌",
+      "definition": "11번째 육십갑자. 천간 갑(목)과 지지 술(토)의 결합",
+      "source": "전통 명리학 일반 용례",
+      "kind": "sexagenary"
+    },
+    {
+      "id": "T0059",
+      "category": "간지와 오행",
+      "subcategory": "육십갑자",
+      "name": "을해",
+      "hanja": "乙亥",
+      "definition": "12번째 육십갑자. 천간 을(목)과 지지 해(수)의 결합",
+      "source": "전통 명리학 일반 용례",
+      "kind": "sexagenary"
+    },
+    {
+      "id": "T0060",
+      "category": "간지와 오행",
+      "subcategory": "육십갑자",
+      "name": "병자",
+      "hanja": "丙子",
+      "definition": "13번째 육십갑자. 천간 병(화)과 지지 자(수)의 결합",
+      "source": "전통 명리학 일반 용례",
+      "kind": "sexagenary"
+    },
+    {
+      "id": "T0061",
+      "category": "간지와 오행",
+      "subcategory": "육십갑자",
+      "name": "정축",
+      "hanja": "丁丑",
+      "definition": "14번째 육십갑자. 천간 정(화)과 지지 축(토)의 결합",
+      "source": "전통 명리학 일반 용례",
+      "kind": "sexagenary"
+    },
+    {
+      "id": "T0062",
+      "category": "간지와 오행",
+      "subcategory": "육십갑자",
+      "name": "무인",
+      "hanja": "戊寅",
+      "definition": "15번째 육십갑자. 천간 무(토)과 지지 인(목)의 결합",
+      "source": "전통 명리학 일반 용례",
+      "kind": "sexagenary"
+    },
+    {
+      "id": "T0063",
+      "category": "간지와 오행",
+      "subcategory": "육십갑자",
+      "name": "기묘",
+      "hanja": "己卯",
+      "definition": "16번째 육십갑자. 천간 기(토)과 지지 묘(목)의 결합",
+      "source": "전통 명리학 일반 용례",
+      "kind": "sexagenary"
+    },
+    {
+      "id": "T0064",
+      "category": "간지와 오행",
+      "subcategory": "육십갑자",
+      "name": "경진",
+      "hanja": "庚辰",
+      "definition": "17번째 육십갑자. 천간 경(금)과 지지 진(토)의 결합",
+      "source": "전통 명리학 일반 용례",
+      "kind": "sexagenary"
+    },
+    {
+      "id": "T0065",
+      "category": "간지와 오행",
+      "subcategory": "육십갑자",
+      "name": "신사",
+      "hanja": "辛巳",
+      "definition": "18번째 육십갑자. 천간 신(금)과 지지 사(화)의 결합",
+      "source": "전통 명리학 일반 용례",
+      "kind": "sexagenary"
+    },
+    {
+      "id": "T0066",
+      "category": "간지와 오행",
+      "subcategory": "육십갑자",
+      "name": "임오",
+      "hanja": "壬午",
+      "definition": "19번째 육십갑자. 천간 임(수)과 지지 오(화)의 결합",
+      "source": "전통 명리학 일반 용례",
+      "kind": "sexagenary"
+    },
+    {
+      "id": "T0067",
+      "category": "간지와 오행",
+      "subcategory": "육십갑자",
+      "name": "계미",
+      "hanja": "癸未",
+      "definition": "20번째 육십갑자. 천간 계(수)과 지지 미(토)의 결합",
+      "source": "전통 명리학 일반 용례",
+      "kind": "sexagenary"
+    },
+    {
+      "id": "T0068",
+      "category": "간지와 오행",
+      "subcategory": "육십갑자",
+      "name": "갑신",
+      "hanja": "甲申",
+      "definition": "21번째 육십갑자. 천간 갑(목)과 지지 신(금)의 결합",
+      "source": "전통 명리학 일반 용례",
+      "kind": "sexagenary"
+    },
+    {
+      "id": "T0069",
+      "category": "간지와 오행",
+      "subcategory": "육십갑자",
+      "name": "을유",
+      "hanja": "乙酉",
+      "definition": "22번째 육십갑자. 천간 을(목)과 지지 유(금)의 결합",
+      "source": "전통 명리학 일반 용례",
+      "kind": "sexagenary"
+    },
+    {
+      "id": "T0070",
+      "category": "간지와 오행",
+      "subcategory": "육십갑자",
+      "name": "병술",
+      "hanja": "丙戌",
+      "definition": "23번째 육십갑자. 천간 병(화)과 지지 술(토)의 결합",
+      "source": "전통 명리학 일반 용례",
+      "kind": "sexagenary"
+    },
+    {
+      "id": "T0071",
+      "category": "간지와 오행",
+      "subcategory": "육십갑자",
+      "name": "정해",
+      "hanja": "丁亥",
+      "definition": "24번째 육십갑자. 천간 정(화)과 지지 해(수)의 결합",
+      "source": "전통 명리학 일반 용례",
+      "kind": "sexagenary"
+    },
+    {
+      "id": "T0072",
+      "category": "간지와 오행",
+      "subcategory": "육십갑자",
+      "name": "무자",
+      "hanja": "戊子",
+      "definition": "25번째 육십갑자. 천간 무(토)과 지지 자(수)의 결합",
+      "source": "전통 명리학 일반 용례",
+      "kind": "sexagenary"
+    },
+    {
+      "id": "T0073",
+      "category": "간지와 오행",
+      "subcategory": "육십갑자",
+      "name": "기축",
+      "hanja": "己丑",
+      "definition": "26번째 육십갑자. 천간 기(토)과 지지 축(토)의 결합",
+      "source": "전통 명리학 일반 용례",
+      "kind": "sexagenary"
+    },
+    {
+      "id": "T0074",
+      "category": "간지와 오행",
+      "subcategory": "육십갑자",
+      "name": "경인",
+      "hanja": "庚寅",
+      "definition": "27번째 육십갑자. 천간 경(금)과 지지 인(목)의 결합",
+      "source": "전통 명리학 일반 용례",
+      "kind": "sexagenary"
+    },
+    {
+      "id": "T0075",
+      "category": "간지와 오행",
+      "subcategory": "육십갑자",
+      "name": "신묘",
+      "hanja": "辛卯",
+      "definition": "28번째 육십갑자. 천간 신(금)과 지지 묘(목)의 결합",
+      "source": "전통 명리학 일반 용례",
+      "kind": "sexagenary"
+    },
+    {
+      "id": "T0076",
+      "category": "간지와 오행",
+      "subcategory": "육십갑자",
+      "name": "임진",
+      "hanja": "壬辰",
+      "definition": "29번째 육십갑자. 천간 임(수)과 지지 진(토)의 결합",
+      "source": "전통 명리학 일반 용례",
+      "kind": "sexagenary"
+    },
+    {
+      "id": "T0077",
+      "category": "간지와 오행",
+      "subcategory": "육십갑자",
+      "name": "계사",
+      "hanja": "癸巳",
+      "definition": "30번째 육십갑자. 천간 계(수)과 지지 사(화)의 결합",
+      "source": "전통 명리학 일반 용례",
+      "kind": "sexagenary"
+    },
+    {
+      "id": "T0078",
+      "category": "간지와 오행",
+      "subcategory": "육십갑자",
+      "name": "갑오",
+      "hanja": "甲午",
+      "definition": "31번째 육십갑자. 천간 갑(목)과 지지 오(화)의 결합",
+      "source": "전통 명리학 일반 용례",
+      "kind": "sexagenary"
+    },
+    {
+      "id": "T0079",
+      "category": "간지와 오행",
+      "subcategory": "육십갑자",
+      "name": "을미",
+      "hanja": "乙未",
+      "definition": "32번째 육십갑자. 천간 을(목)과 지지 미(토)의 결합",
+      "source": "전통 명리학 일반 용례",
+      "kind": "sexagenary"
+    },
+    {
+      "id": "T0080",
+      "category": "간지와 오행",
+      "subcategory": "육십갑자",
+      "name": "병신",
+      "hanja": "丙申",
+      "definition": "33번째 육십갑자. 천간 병(화)과 지지 신(금)의 결합",
+      "source": "전통 명리학 일반 용례",
+      "kind": "sexagenary"
+    },
+    {
+      "id": "T0081",
+      "category": "간지와 오행",
+      "subcategory": "육십갑자",
+      "name": "정유",
+      "hanja": "丁酉",
+      "definition": "34번째 육십갑자. 천간 정(화)과 지지 유(금)의 결합",
+      "source": "전통 명리학 일반 용례",
+      "kind": "sexagenary"
+    },
+    {
+      "id": "T0082",
+      "category": "간지와 오행",
+      "subcategory": "육십갑자",
+      "name": "무술",
+      "hanja": "戊戌",
+      "definition": "35번째 육십갑자. 천간 무(토)과 지지 술(토)의 결합",
+      "source": "전통 명리학 일반 용례",
+      "kind": "sexagenary"
+    },
+    {
+      "id": "T0083",
+      "category": "간지와 오행",
+      "subcategory": "육십갑자",
+      "name": "기해",
+      "hanja": "己亥",
+      "definition": "36번째 육십갑자. 천간 기(토)과 지지 해(수)의 결합",
+      "source": "전통 명리학 일반 용례",
+      "kind": "sexagenary"
+    },
+    {
+      "id": "T0084",
+      "category": "간지와 오행",
+      "subcategory": "육십갑자",
+      "name": "경자",
+      "hanja": "庚子",
+      "definition": "37번째 육십갑자. 천간 경(금)과 지지 자(수)의 결합",
+      "source": "전통 명리학 일반 용례",
+      "kind": "sexagenary"
+    },
+    {
+      "id": "T0085",
+      "category": "간지와 오행",
+      "subcategory": "육십갑자",
+      "name": "신축",
+      "hanja": "辛丑",
+      "definition": "38번째 육십갑자. 천간 신(금)과 지지 축(토)의 결합",
+      "source": "전통 명리학 일반 용례",
+      "kind": "sexagenary"
+    },
+    {
+      "id": "T0086",
+      "category": "간지와 오행",
+      "subcategory": "육십갑자",
+      "name": "임인",
+      "hanja": "壬寅",
+      "definition": "39번째 육십갑자. 천간 임(수)과 지지 인(목)의 결합",
+      "source": "전통 명리학 일반 용례",
+      "kind": "sexagenary"
+    },
+    {
+      "id": "T0087",
+      "category": "간지와 오행",
+      "subcategory": "육십갑자",
+      "name": "계묘",
+      "hanja": "癸卯",
+      "definition": "40번째 육십갑자. 천간 계(수)과 지지 묘(목)의 결합",
+      "source": "전통 명리학 일반 용례",
+      "kind": "sexagenary"
+    },
+    {
+      "id": "T0088",
+      "category": "간지와 오행",
+      "subcategory": "육십갑자",
+      "name": "갑진",
+      "hanja": "甲辰",
+      "definition": "41번째 육십갑자. 천간 갑(목)과 지지 진(토)의 결합",
+      "source": "전통 명리학 일반 용례",
+      "kind": "sexagenary"
+    },
+    {
+      "id": "T0089",
+      "category": "간지와 오행",
+      "subcategory": "육십갑자",
+      "name": "을사",
+      "hanja": "乙巳",
+      "definition": "42번째 육십갑자. 천간 을(목)과 지지 사(화)의 결합",
+      "source": "전통 명리학 일반 용례",
+      "kind": "sexagenary"
+    },
+    {
+      "id": "T0090",
+      "category": "간지와 오행",
+      "subcategory": "육십갑자",
+      "name": "병오",
+      "hanja": "丙午",
+      "definition": "43번째 육십갑자. 천간 병(화)과 지지 오(화)의 결합",
+      "source": "전통 명리학 일반 용례",
+      "kind": "sexagenary"
+    },
+    {
+      "id": "T0091",
+      "category": "간지와 오행",
+      "subcategory": "육십갑자",
+      "name": "정미",
+      "hanja": "丁未",
+      "definition": "44번째 육십갑자. 천간 정(화)과 지지 미(토)의 결합",
+      "source": "전통 명리학 일반 용례",
+      "kind": "sexagenary"
+    },
+    {
+      "id": "T0092",
+      "category": "간지와 오행",
+      "subcategory": "육십갑자",
+      "name": "무신",
+      "hanja": "戊申",
+      "definition": "45번째 육십갑자. 천간 무(토)과 지지 신(금)의 결합",
+      "source": "전통 명리학 일반 용례",
+      "kind": "sexagenary"
+    },
+    {
+      "id": "T0093",
+      "category": "간지와 오행",
+      "subcategory": "육십갑자",
+      "name": "기유",
+      "hanja": "己酉",
+      "definition": "46번째 육십갑자. 천간 기(토)과 지지 유(금)의 결합",
+      "source": "전통 명리학 일반 용례",
+      "kind": "sexagenary"
+    },
+    {
+      "id": "T0094",
+      "category": "간지와 오행",
+      "subcategory": "육십갑자",
+      "name": "경술",
+      "hanja": "庚戌",
+      "definition": "47번째 육십갑자. 천간 경(금)과 지지 술(토)의 결합",
+      "source": "전통 명리학 일반 용례",
+      "kind": "sexagenary"
+    },
+    {
+      "id": "T0095",
+      "category": "간지와 오행",
+      "subcategory": "육십갑자",
+      "name": "신해",
+      "hanja": "辛亥",
+      "definition": "48번째 육십갑자. 천간 신(금)과 지지 해(수)의 결합",
+      "source": "전통 명리학 일반 용례",
+      "kind": "sexagenary"
+    },
+    {
+      "id": "T0096",
+      "category": "간지와 오행",
+      "subcategory": "육십갑자",
+      "name": "임자",
+      "hanja": "壬子",
+      "definition": "49번째 육십갑자. 천간 임(수)과 지지 자(수)의 결합",
+      "source": "전통 명리학 일반 용례",
+      "kind": "sexagenary"
+    },
+    {
+      "id": "T0097",
+      "category": "간지와 오행",
+      "subcategory": "육십갑자",
+      "name": "계축",
+      "hanja": "癸丑",
+      "definition": "50번째 육십갑자. 천간 계(수)과 지지 축(토)의 결합",
+      "source": "전통 명리학 일반 용례",
+      "kind": "sexagenary"
+    },
+    {
+      "id": "T0098",
+      "category": "간지와 오행",
+      "subcategory": "육십갑자",
+      "name": "갑인",
+      "hanja": "甲寅",
+      "definition": "51번째 육십갑자. 천간 갑(목)과 지지 인(목)의 결합",
+      "source": "전통 명리학 일반 용례",
+      "kind": "sexagenary"
+    },
+    {
+      "id": "T0099",
+      "category": "간지와 오행",
+      "subcategory": "육십갑자",
+      "name": "을묘",
+      "hanja": "乙卯",
+      "definition": "52번째 육십갑자. 천간 을(목)과 지지 묘(목)의 결합",
+      "source": "전통 명리학 일반 용례",
+      "kind": "sexagenary"
+    },
+    {
+      "id": "T0100",
+      "category": "간지와 오행",
+      "subcategory": "육십갑자",
+      "name": "병진",
+      "hanja": "丙辰",
+      "definition": "53번째 육십갑자. 천간 병(화)과 지지 진(토)의 결합",
+      "source": "전통 명리학 일반 용례",
+      "kind": "sexagenary"
+    },
+    {
+      "id": "T0101",
+      "category": "간지와 오행",
+      "subcategory": "육십갑자",
+      "name": "정사",
+      "hanja": "丁巳",
+      "definition": "54번째 육십갑자. 천간 정(화)과 지지 사(화)의 결합",
+      "source": "전통 명리학 일반 용례",
+      "kind": "sexagenary"
+    },
+    {
+      "id": "T0102",
+      "category": "간지와 오행",
+      "subcategory": "육십갑자",
+      "name": "무오",
+      "hanja": "戊午",
+      "definition": "55번째 육십갑자. 천간 무(토)과 지지 오(화)의 결합",
+      "source": "전통 명리학 일반 용례",
+      "kind": "sexagenary"
+    },
+    {
+      "id": "T0103",
+      "category": "간지와 오행",
+      "subcategory": "육십갑자",
+      "name": "기미",
+      "hanja": "己未",
+      "definition": "56번째 육십갑자. 천간 기(토)과 지지 미(토)의 결합",
+      "source": "전통 명리학 일반 용례",
+      "kind": "sexagenary"
+    },
+    {
+      "id": "T0104",
+      "category": "간지와 오행",
+      "subcategory": "육십갑자",
+      "name": "경신",
+      "hanja": "庚申",
+      "definition": "57번째 육십갑자. 천간 경(금)과 지지 신(금)의 결합",
+      "source": "전통 명리학 일반 용례",
+      "kind": "sexagenary"
+    },
+    {
+      "id": "T0105",
+      "category": "간지와 오행",
+      "subcategory": "육십갑자",
+      "name": "신유",
+      "hanja": "辛酉",
+      "definition": "58번째 육십갑자. 천간 신(금)과 지지 유(금)의 결합",
+      "source": "전통 명리학 일반 용례",
+      "kind": "sexagenary"
+    },
+    {
+      "id": "T0106",
+      "category": "간지와 오행",
+      "subcategory": "육십갑자",
+      "name": "임술",
+      "hanja": "壬戌",
+      "definition": "59번째 육십갑자. 천간 임(수)과 지지 술(토)의 결합",
+      "source": "전통 명리학 일반 용례",
+      "kind": "sexagenary"
+    },
+    {
+      "id": "T0107",
+      "category": "간지와 오행",
+      "subcategory": "육십갑자",
+      "name": "계해",
+      "hanja": "癸亥",
+      "definition": "60번째 육십갑자. 천간 계(수)과 지지 해(수)의 결합",
+      "source": "전통 명리학 일반 용례",
+      "kind": "sexagenary"
+    },
+    {
+      "id": "T0108",
+      "category": "간지와 오행",
+      "subcategory": "오행과 음양",
+      "name": "음",
+      "hanja": "陰",
+      "definition": "음양의 음에 해당하는 속성",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0109",
+      "category": "간지와 오행",
+      "subcategory": "오행과 음양",
+      "name": "양",
+      "hanja": "陽",
+      "definition": "음양의 양에 해당하는 속성",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0110",
+      "category": "간지와 오행",
+      "subcategory": "오행과 음양",
+      "name": "목",
+      "hanja": "木",
+      "definition": "성장·발산을 상징하는 오행",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0111",
+      "category": "간지와 오행",
+      "subcategory": "오행과 음양",
+      "name": "화",
+      "hanja": "火",
+      "definition": "열기·상승을 상징하는 오행",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0112",
+      "category": "간지와 오행",
+      "subcategory": "오행과 음양",
+      "name": "토",
+      "hanja": "土",
+      "definition": "중재·안정을 상징하는 오행",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0113",
+      "category": "간지와 오행",
+      "subcategory": "오행과 음양",
+      "name": "금",
+      "hanja": "金",
+      "definition": "수렴·결단을 상징하는 오행",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0114",
+      "category": "간지와 오행",
+      "subcategory": "오행과 음양",
+      "name": "수",
+      "hanja": "水",
+      "definition": "유동·저장을 상징하는 오행",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0115",
+      "category": "간지와 오행",
+      "subcategory": "오행과 음양",
+      "name": "상생",
+      "hanja": "相生",
+      "definition": "목→화→토→금→수→목의 생조 관계",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0116",
+      "category": "간지와 오행",
+      "subcategory": "오행과 음양",
+      "name": "상극",
+      "hanja": "相剋",
+      "definition": "목→토→수→화→금→목의 제어 관계",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0117",
+      "category": "간지와 오행",
+      "subcategory": "오행과 음양",
+      "name": "비화",
+      "hanja": "比和",
+      "definition": "같은 오행의 관계",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0118",
+      "category": "간지와 오행",
+      "subcategory": "오행과 음양",
+      "name": "태과",
+      "hanja": "太過",
+      "definition": "특정 기운이 지나치게 강한 상태",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0119",
+      "category": "간지와 오행",
+      "subcategory": "오행과 음양",
+      "name": "불급",
+      "hanja": "不及",
+      "definition": "특정 기운이 부족한 상태",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0120",
+      "category": "간지와 오행",
+      "subcategory": "오행과 음양",
+      "name": "중화",
+      "hanja": "中和",
+      "definition": "기운이 조화를 이루는 상태",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0121",
+      "category": "십성과 육친",
+      "subcategory": "비겁",
+      "name": "비견",
+      "hanja": "比肩",
+      "definition": "일간과 오행·음양이 같은 십성",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0122",
+      "category": "십성과 육친",
+      "subcategory": "비겁",
+      "name": "겁재",
+      "hanja": "劫財",
+      "definition": "일간과 오행이 같고 음양이 다른 십성",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0123",
+      "category": "십성과 육친",
+      "subcategory": "식상",
+      "name": "식신",
+      "hanja": "食神",
+      "definition": "일간이 생하는 오행이며 음양이 같은 십성",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0124",
+      "category": "십성과 육친",
+      "subcategory": "식상",
+      "name": "상관",
+      "hanja": "傷官",
+      "definition": "일간이 생하는 오행이며 음양이 다른 십성",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0125",
+      "category": "십성과 육친",
+      "subcategory": "재성",
+      "name": "편재",
+      "hanja": "偏財",
+      "definition": "일간이 극하는 오행이며 음양이 같은 십성",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0126",
+      "category": "십성과 육친",
+      "subcategory": "재성",
+      "name": "정재",
+      "hanja": "正財",
+      "definition": "일간이 극하는 오행이며 음양이 다른 십성",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0127",
+      "category": "십성과 육친",
+      "subcategory": "관성",
+      "name": "편관",
+      "hanja": "偏官",
+      "definition": "일간을 극하는 오행이며 음양이 같은 십성",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0128",
+      "category": "십성과 육친",
+      "subcategory": "관성",
+      "name": "정관",
+      "hanja": "正官",
+      "definition": "일간을 극하는 오행이며 음양이 다른 십성",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0129",
+      "category": "십성과 육친",
+      "subcategory": "인성",
+      "name": "편인",
+      "hanja": "偏印",
+      "definition": "일간을 생하는 오행이며 음양이 같은 십성",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0130",
+      "category": "십성과 육친",
+      "subcategory": "인성",
+      "name": "정인",
+      "hanja": "正印",
+      "definition": "일간을 생하는 오행이며 음양이 다른 십성",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0131",
+      "category": "십성과 육친",
+      "subcategory": "묶음과 육친",
+      "name": "비겁",
+      "hanja": "比劫",
+      "definition": "비견과 겁재의 묶음",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0132",
+      "category": "십성과 육친",
+      "subcategory": "묶음과 육친",
+      "name": "식상",
+      "hanja": "食傷",
+      "definition": "식신과 상관의 묶음",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0133",
+      "category": "십성과 육친",
+      "subcategory": "묶음과 육친",
+      "name": "재성",
+      "hanja": "財星",
+      "definition": "편재와 정재의 묶음",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0134",
+      "category": "십성과 육친",
+      "subcategory": "묶음과 육친",
+      "name": "관성",
+      "hanja": "官星",
+      "definition": "편관과 정관의 묶음",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0135",
+      "category": "십성과 육친",
+      "subcategory": "묶음과 육친",
+      "name": "인성",
+      "hanja": "印星",
+      "definition": "편인과 정인의 묶음",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0136",
+      "category": "십성과 육친",
+      "subcategory": "묶음과 육친",
+      "name": "육친",
+      "hanja": "六親",
+      "definition": "십성으로 대응시키는 가족·사회 관계",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0137",
+      "category": "격국과 용신",
+      "subcategory": "강약과 뿌리",
+      "name": "신강",
+      "hanja": "身强",
+      "definition": "일간의 세력이 강하다는 판정",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0138",
+      "category": "격국과 용신",
+      "subcategory": "강약과 뿌리",
+      "name": "신약",
+      "hanja": "身弱",
+      "definition": "일간의 세력이 약하다는 판정",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0139",
+      "category": "격국과 용신",
+      "subcategory": "강약과 뿌리",
+      "name": "신왕",
+      "hanja": "身旺",
+      "definition": "일간이 왕성한 상태",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0140",
+      "category": "격국과 용신",
+      "subcategory": "강약과 뿌리",
+      "name": "득령",
+      "hanja": "得令",
+      "definition": "월령의 계절적 도움을 받음",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0141",
+      "category": "격국과 용신",
+      "subcategory": "강약과 뿌리",
+      "name": "득지",
+      "hanja": "得地",
+      "definition": "지지에 뿌리를 둠",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0142",
+      "category": "격국과 용신",
+      "subcategory": "강약과 뿌리",
+      "name": "득세",
+      "hanja": "得勢",
+      "definition": "주변 글자의 지원을 받음",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0143",
+      "category": "격국과 용신",
+      "subcategory": "강약과 뿌리",
+      "name": "통근",
+      "hanja": "通根",
+      "definition": "천간이 지장간에 뿌리를 가짐",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0144",
+      "category": "격국과 용신",
+      "subcategory": "강약과 뿌리",
+      "name": "투간",
+      "hanja": "透干",
+      "definition": "지장간에 있는 글자가 천간에 드러남",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0145",
+      "category": "격국과 용신",
+      "subcategory": "강약과 뿌리",
+      "name": "월령",
+      "hanja": "月令",
+      "definition": "월지가 나타내는 계절의 주도 기운",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0146",
+      "category": "격국과 용신",
+      "subcategory": "격국",
+      "name": "격국",
+      "hanja": "格局",
+      "definition": "명식의 구조를 유형화한 분류",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0147",
+      "category": "격국과 용신",
+      "subcategory": "격국",
+      "name": "내격",
+      "hanja": "內格",
+      "definition": "일반적인 격국 분류",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0148",
+      "category": "격국과 용신",
+      "subcategory": "격국",
+      "name": "외격",
+      "hanja": "外格",
+      "definition": "특수한 격국 분류",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0149",
+      "category": "격국과 용신",
+      "subcategory": "격국",
+      "name": "종격",
+      "hanja": "從格",
+      "definition": "강한 세력에 따르는 것으로 해석하는 격국",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0150",
+      "category": "격국과 용신",
+      "subcategory": "용신과 판단",
+      "name": "용신",
+      "hanja": "用神",
+      "definition": "해석의 중심으로 삼는 유용한 기운",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0151",
+      "category": "격국과 용신",
+      "subcategory": "용신과 판단",
+      "name": "희신",
+      "hanja": "喜神",
+      "definition": "용신을 돕는 기운",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0152",
+      "category": "격국과 용신",
+      "subcategory": "용신과 판단",
+      "name": "기신",
+      "hanja": "忌神",
+      "definition": "불리하다고 판단하는 기운",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0153",
+      "category": "격국과 용신",
+      "subcategory": "용신과 판단",
+      "name": "구신",
+      "hanja": "仇神",
+      "definition": "희신·용신을 방해하는 기운",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0154",
+      "category": "격국과 용신",
+      "subcategory": "용신과 판단",
+      "name": "한신",
+      "hanja": "閑神",
+      "definition": "영향이 상대적으로 적은 기운",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0155",
+      "category": "격국과 용신",
+      "subcategory": "용신과 판단",
+      "name": "조후",
+      "hanja": "調候",
+      "definition": "한난조습을 고려하는 분석",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0156",
+      "category": "격국과 용신",
+      "subcategory": "용신과 판단",
+      "name": "억부",
+      "hanja": "抑扶",
+      "definition": "강한 기운을 억하고 약한 기운을 돕는 분석",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0157",
+      "category": "격국과 용신",
+      "subcategory": "용신과 판단",
+      "name": "병약",
+      "hanja": "病藥",
+      "definition": "문제점과 해법에 빗대는 분석",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0158",
+      "category": "격국과 용신",
+      "subcategory": "용신과 판단",
+      "name": "통관",
+      "hanja": "通關",
+      "definition": "상극 사이를 이어주는 기운",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0159",
+      "category": "간지 관계",
+      "subcategory": "합",
+      "name": "천간합",
+      "hanja": "天干合",
+      "definition": "특정 천간 쌍의 결합",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0160",
+      "category": "간지 관계",
+      "subcategory": "합",
+      "name": "육합",
+      "hanja": "六合",
+      "definition": "특정 지지 두 개의 결합",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0161",
+      "category": "간지 관계",
+      "subcategory": "합",
+      "name": "삼합",
+      "hanja": "三合",
+      "definition": "지지 세 개의 국 형성",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0162",
+      "category": "간지 관계",
+      "subcategory": "합",
+      "name": "반합",
+      "hanja": "半合",
+      "definition": "삼합의 일부가 결합",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0163",
+      "category": "간지 관계",
+      "subcategory": "합",
+      "name": "방합",
+      "hanja": "方合",
+      "definition": "같은 계절의 지지 세 개의 결합",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0164",
+      "category": "간지 관계",
+      "subcategory": "합",
+      "name": "암합",
+      "hanja": "暗合",
+      "definition": "숨은 기운 사이의 합",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0165",
+      "category": "간지 관계",
+      "subcategory": "합",
+      "name": "합화",
+      "hanja": "合化",
+      "definition": "합의 결과로 오행 변화가 성립한다는 해석",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0166",
+      "category": "간지 관계",
+      "subcategory": "합",
+      "name": "합거",
+      "hanja": "合去",
+      "definition": "합으로 특정 작용이 약해진다는 해석",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0167",
+      "category": "간지 관계",
+      "subcategory": "충형파해",
+      "name": "천간충",
+      "hanja": "天干沖",
+      "definition": "천간 간의 대립으로 해석하는 관계",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0168",
+      "category": "간지 관계",
+      "subcategory": "충형파해",
+      "name": "지지충",
+      "hanja": "地支沖",
+      "definition": "마주 보는 지지 간의 충돌",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0169",
+      "category": "간지 관계",
+      "subcategory": "충형파해",
+      "name": "형",
+      "hanja": "刑",
+      "definition": "지지 간의 형 관계",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0170",
+      "category": "간지 관계",
+      "subcategory": "충형파해",
+      "name": "파",
+      "hanja": "破",
+      "definition": "지지 간의 파 관계",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0171",
+      "category": "간지 관계",
+      "subcategory": "충형파해",
+      "name": "해",
+      "hanja": "害",
+      "definition": "지지 간의 해 관계",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0172",
+      "category": "간지 관계",
+      "subcategory": "충형파해",
+      "name": "원진",
+      "hanja": "怨嗔",
+      "definition": "불화·원망으로 해석하는 관계",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0173",
+      "category": "간지 관계",
+      "subcategory": "충형파해",
+      "name": "충거",
+      "hanja": "沖去",
+      "definition": "충으로 특정 작용이 제거된다는 해석",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0174",
+      "category": "운의 흐름",
+      "subcategory": "운의 단위",
+      "name": "대운",
+      "hanja": "大運",
+      "definition": "대체로 10년 단위의 운",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0175",
+      "category": "운의 흐름",
+      "subcategory": "운의 단위",
+      "name": "세운",
+      "hanja": "歲運",
+      "definition": "해마다 적용하는 간지",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0176",
+      "category": "운의 흐름",
+      "subcategory": "운의 단위",
+      "name": "월운",
+      "hanja": "月運",
+      "definition": "월 단위 운",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0177",
+      "category": "운의 흐름",
+      "subcategory": "운의 단위",
+      "name": "일운",
+      "hanja": "日運",
+      "definition": "일 단위 운",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0178",
+      "category": "운의 흐름",
+      "subcategory": "운의 단위",
+      "name": "시운",
+      "hanja": "時運",
+      "definition": "시간 단위 운",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0179",
+      "category": "운의 흐름",
+      "subcategory": "진행과 변화",
+      "name": "대운수",
+      "hanja": "大運數",
+      "definition": "첫 대운이 시작되는 나이",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0180",
+      "category": "운의 흐름",
+      "subcategory": "진행과 변화",
+      "name": "순행",
+      "hanja": "順行",
+      "definition": "간지 순서의 정방향 진행",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0181",
+      "category": "운의 흐름",
+      "subcategory": "진행과 변화",
+      "name": "역행",
+      "hanja": "逆行",
+      "definition": "간지 순서의 역방향 진행",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0182",
+      "category": "운의 흐름",
+      "subcategory": "진행과 변화",
+      "name": "입운",
+      "hanja": "入運",
+      "definition": "대운이 시작됨",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0183",
+      "category": "운의 흐름",
+      "subcategory": "진행과 변화",
+      "name": "교운기",
+      "hanja": "交運期",
+      "definition": "대운이 교체되는 시기",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0184",
+      "category": "운의 흐름",
+      "subcategory": "진행과 변화",
+      "name": "용신운",
+      "hanja": "用神運",
+      "definition": "용신이 작용한다고 해석하는 시기",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0185",
+      "category": "운의 흐름",
+      "subcategory": "진행과 변화",
+      "name": "기신운",
+      "hanja": "忌神運",
+      "definition": "기신이 작용한다고 해석하는 시기",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0186",
+      "category": "운의 흐름",
+      "subcategory": "진행과 변화",
+      "name": "복음",
+      "hanja": "伏吟",
+      "definition": "동일 간지가 겹침",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0187",
+      "category": "운의 흐름",
+      "subcategory": "진행과 변화",
+      "name": "반음",
+      "hanja": "反吟",
+      "definition": "천간·지지가 모두 충하는 관계로 보는 용례",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0188",
+      "category": "운의 흐름",
+      "subcategory": "진행과 변화",
+      "name": "세운충",
+      "hanja": "歲運沖",
+      "definition": "세운과 원국 사이의 충",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0189",
+      "category": "운의 흐름",
+      "subcategory": "진행과 변화",
+      "name": "대운충",
+      "hanja": "大運沖",
+      "definition": "대운과 원국 사이의 충",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0190",
+      "category": "십이운성",
+      "subcategory": "열두 단계",
+      "name": "장생",
+      "hanja": "長生",
+      "definition": "생명의 시작에 비유",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0191",
+      "category": "십이운성",
+      "subcategory": "열두 단계",
+      "name": "목욕",
+      "hanja": "沐浴",
+      "definition": "성장 초기에 비유",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0192",
+      "category": "십이운성",
+      "subcategory": "열두 단계",
+      "name": "관대",
+      "hanja": "冠帶",
+      "definition": "성숙 준비에 비유",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0193",
+      "category": "십이운성",
+      "subcategory": "열두 단계",
+      "name": "건록",
+      "hanja": "建祿",
+      "definition": "독립·활동에 비유",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0194",
+      "category": "십이운성",
+      "subcategory": "열두 단계",
+      "name": "제왕",
+      "hanja": "帝旺",
+      "definition": "기운의 절정에 비유",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0195",
+      "category": "십이운성",
+      "subcategory": "열두 단계",
+      "name": "쇠",
+      "hanja": "衰",
+      "definition": "기운이 줄어듦에 비유",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0196",
+      "category": "십이운성",
+      "subcategory": "열두 단계",
+      "name": "병",
+      "hanja": "病",
+      "definition": "기운의 약화에 비유",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0197",
+      "category": "십이운성",
+      "subcategory": "열두 단계",
+      "name": "사",
+      "hanja": "死",
+      "definition": "주기의 끝에 비유하며 실제 사망 예측이 아님",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0198",
+      "category": "십이운성",
+      "subcategory": "열두 단계",
+      "name": "묘",
+      "hanja": "墓",
+      "definition": "저장·수장에 비유",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0199",
+      "category": "십이운성",
+      "subcategory": "열두 단계",
+      "name": "절",
+      "hanja": "絶",
+      "definition": "단절·전환에 비유",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0200",
+      "category": "십이운성",
+      "subcategory": "열두 단계",
+      "name": "태",
+      "hanja": "胎",
+      "definition": "새로운 가능성에 비유",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0201",
+      "category": "십이운성",
+      "subcategory": "열두 단계",
+      "name": "양",
+      "hanja": "養",
+      "definition": "양육·준비에 비유",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0202",
+      "category": "신살과 귀인",
+      "subcategory": "십이신살",
+      "name": "겁살",
+      "hanja": "劫殺",
+      "definition": "경쟁·손실의 상징",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0203",
+      "category": "신살과 귀인",
+      "subcategory": "십이신살",
+      "name": "재살",
+      "hanja": "災殺",
+      "definition": "제약·갈등의 상징",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0204",
+      "category": "신살과 귀인",
+      "subcategory": "십이신살",
+      "name": "천살",
+      "hanja": "天殺",
+      "definition": "외부 환경의 장애 상징",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0205",
+      "category": "신살과 귀인",
+      "subcategory": "십이신살",
+      "name": "지살",
+      "hanja": "地殺",
+      "definition": "이동·활동의 상징",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0206",
+      "category": "신살과 귀인",
+      "subcategory": "십이신살",
+      "name": "년살",
+      "hanja": "年殺",
+      "definition": "도화·인기의 상징",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0207",
+      "category": "신살과 귀인",
+      "subcategory": "십이신살",
+      "name": "월살",
+      "hanja": "月殺",
+      "definition": "정체·장애의 상징",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0208",
+      "category": "신살과 귀인",
+      "subcategory": "십이신살",
+      "name": "망신살",
+      "hanja": "亡身殺",
+      "definition": "노출·구설의 상징",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0209",
+      "category": "신살과 귀인",
+      "subcategory": "십이신살",
+      "name": "장성살",
+      "hanja": "將星殺",
+      "definition": "통솔·권위의 상징",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0210",
+      "category": "신살과 귀인",
+      "subcategory": "십이신살",
+      "name": "반안살",
+      "hanja": "攀鞍殺",
+      "definition": "성취·지위의 상징",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0211",
+      "category": "신살과 귀인",
+      "subcategory": "십이신살",
+      "name": "역마살",
+      "hanja": "驛馬殺",
+      "definition": "이동·변화의 상징",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0212",
+      "category": "신살과 귀인",
+      "subcategory": "십이신살",
+      "name": "육해살",
+      "hanja": "六害殺",
+      "definition": "방해의 상징",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0213",
+      "category": "신살과 귀인",
+      "subcategory": "십이신살",
+      "name": "화개살",
+      "hanja": "華蓋殺",
+      "definition": "예술·종교·고독의 상징",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0214",
+      "category": "신살과 귀인",
+      "subcategory": "귀인",
+      "name": "천을귀인",
+      "hanja": "天乙貴人",
+      "definition": "도움·보호의 상징",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0215",
+      "category": "신살과 귀인",
+      "subcategory": "귀인",
+      "name": "천덕귀인",
+      "hanja": "天德貴人",
+      "definition": "덕·보호의 상징",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0216",
+      "category": "신살과 귀인",
+      "subcategory": "귀인",
+      "name": "월덕귀인",
+      "hanja": "月德貴人",
+      "definition": "완충·도움의 상징",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0217",
+      "category": "신살과 귀인",
+      "subcategory": "귀인",
+      "name": "문창귀인",
+      "hanja": "文昌貴人",
+      "definition": "학문·문장의 상징",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0218",
+      "category": "신살과 귀인",
+      "subcategory": "귀인",
+      "name": "학당귀인",
+      "hanja": "學堂貴人",
+      "definition": "학습·교육의 상징",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0219",
+      "category": "신살과 귀인",
+      "subcategory": "귀인",
+      "name": "태극귀인",
+      "hanja": "太極貴人",
+      "definition": "복덕·정신적 성숙의 상징",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0220",
+      "category": "신살과 귀인",
+      "subcategory": "기타 신살",
+      "name": "도화살",
+      "hanja": "桃花殺",
+      "definition": "매력·인기의 상징",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0221",
+      "category": "신살과 귀인",
+      "subcategory": "기타 신살",
+      "name": "홍염살",
+      "hanja": "紅艶殺",
+      "definition": "애정·매력의 상징",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0222",
+      "category": "신살과 귀인",
+      "subcategory": "기타 신살",
+      "name": "백호대살",
+      "hanja": "白虎大殺",
+      "definition": "강한 기세·상해에 대한 전통적 상징",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0223",
+      "category": "신살과 귀인",
+      "subcategory": "기타 신살",
+      "name": "양인살",
+      "hanja": "羊刃殺",
+      "definition": "강한 의지·결단의 상징",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0224",
+      "category": "신살과 귀인",
+      "subcategory": "기타 신살",
+      "name": "괴강살",
+      "hanja": "魁罡殺",
+      "definition": "강인함·권위의 상징",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0225",
+      "category": "신살과 귀인",
+      "subcategory": "기타 신살",
+      "name": "귀문관살",
+      "hanja": "鬼門關殺",
+      "definition": "예민함·직관의 상징",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0226",
+      "category": "신살과 귀인",
+      "subcategory": "기타 신살",
+      "name": "현침살",
+      "hanja": "懸針殺",
+      "definition": "예리함·정밀성의 상징",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0227",
+      "category": "신살과 귀인",
+      "subcategory": "기타 신살",
+      "name": "고신살",
+      "hanja": "孤辰殺",
+      "definition": "독립·고독의 상징",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0228",
+      "category": "신살과 귀인",
+      "subcategory": "기타 신살",
+      "name": "과숙살",
+      "hanja": "寡宿殺",
+      "definition": "외로움의 상징",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0229",
+      "category": "신살과 귀인",
+      "subcategory": "기타 신살",
+      "name": "공망",
+      "hanja": "空亡",
+      "definition": "특정 순에서 비는 지지의 개념",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0230",
+      "category": "신살과 귀인",
+      "subcategory": "기타 신살",
+      "name": "천문성",
+      "hanja": "天門星",
+      "definition": "철학·직관의 상징",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0231",
+      "category": "고급 이론과 문헌",
+      "subcategory": "지장간",
+      "name": "지장간",
+      "hanja": "支藏干",
+      "definition": "지지 속에 배속된 천간",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0232",
+      "category": "고급 이론과 문헌",
+      "subcategory": "지장간",
+      "name": "본기",
+      "hanja": "本氣",
+      "definition": "지장간의 중심 기운",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0233",
+      "category": "고급 이론과 문헌",
+      "subcategory": "지장간",
+      "name": "중기",
+      "hanja": "中氣",
+      "definition": "지장간의 중간 기운",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0234",
+      "category": "고급 이론과 문헌",
+      "subcategory": "지장간",
+      "name": "여기",
+      "hanja": "餘氣",
+      "definition": "앞선 계절의 남은 기운",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0235",
+      "category": "고급 이론과 문헌",
+      "subcategory": "지장간",
+      "name": "삼원",
+      "hanja": "三元",
+      "definition": "여기·중기·본기의 구성",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0236",
+      "category": "고급 이론과 문헌",
+      "subcategory": "지장간",
+      "name": "사령",
+      "hanja": "司令",
+      "definition": "특정 시기 월령을 주도하는 기운",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0237",
+      "category": "고급 이론과 문헌",
+      "subcategory": "보조 체계",
+      "name": "납음오행",
+      "hanja": "納音五行",
+      "definition": "육십갑자에 별도 배정한 오행",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0238",
+      "category": "고급 이론과 문헌",
+      "subcategory": "보조 체계",
+      "name": "명궁",
+      "hanja": "命宮",
+      "definition": "보조 계산법으로 산출하는 궁",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0239",
+      "category": "고급 이론과 문헌",
+      "subcategory": "보조 체계",
+      "name": "태원",
+      "hanja": "胎元",
+      "definition": "월주를 바탕으로 계산하는 보조 간지",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0240",
+      "category": "고급 이론과 문헌",
+      "subcategory": "보조 체계",
+      "name": "태식",
+      "hanja": "胎息",
+      "definition": "일주를 바탕으로 계산하는 보조 간지",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0241",
+      "category": "고급 이론과 문헌",
+      "subcategory": "보조 체계",
+      "name": "신살론",
+      "hanja": "神殺論",
+      "definition": "신살을 중심으로 하는 해석법",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0242",
+      "category": "고급 이론과 문헌",
+      "subcategory": "보조 체계",
+      "name": "자평명리",
+      "hanja": "子平命理",
+      "definition": "일간·월령·십성·격국을 중시하는 전통",
+      "source": "전통 명리학 일반 용례",
+      "kind": "concept"
+    },
+    {
+      "id": "T0243",
+      "category": "고급 이론과 문헌",
+      "subcategory": "고전",
+      "name": "적천수",
+      "hanja": "滴天髓",
+      "definition": "명리학 전통의 대표적인 고전",
+      "source": "고전 문헌 서지",
+      "kind": "concept"
+    },
+    {
+      "id": "T0244",
+      "category": "고급 이론과 문헌",
+      "subcategory": "고전",
+      "name": "궁통보감",
+      "hanja": "窮通寶鑑",
+      "definition": "조후·계절을 중시하는 명리 고전",
+      "source": "고전 문헌 서지",
+      "kind": "concept"
+    },
+    {
+      "id": "T0245",
+      "category": "고급 이론과 문헌",
+      "subcategory": "고전",
+      "name": "자평진전",
+      "hanja": "子平眞詮",
+      "definition": "격국 해석을 다루는 명리 고전",
+      "source": "고전 문헌 서지",
+      "kind": "concept"
+    }
+  ],
+  "relations": [
+    [
+      "T0007",
+      "T0015",
+      "관련"
+    ],
+    [
+      "T0007",
+      "T0016",
+      "관련"
+    ],
+    [
+      "T0001",
+      "T0002",
+      "관련"
+    ],
+    [
+      "T0004",
+      "T0003",
+      "관련"
+    ],
+    [
+      "T0174",
+      "T0175",
+      "관련"
+    ],
+    [
+      "T0150",
+      "T0151",
+      "관련"
+    ],
+    [
+      "T0150",
+      "T0152",
+      "관련"
+    ],
+    [
+      "T0231",
+      "T0232",
+      "관련"
+    ],
+    [
+      "T0231",
+      "T0233",
+      "관련"
+    ],
+    [
+      "T0231",
+      "T0234",
+      "관련"
+    ],
+    [
+      "T0062",
+      "T0030",
+      "관련"
+    ],
+    [
+      "T0062",
+      "T0038",
+      "관련"
+    ],
+    [
+      "T0160",
+      "T0168",
+      "관련"
+    ],
+    [
+      "T0121",
+      "T0122",
+      "대비"
+    ],
+    [
+      "T0123",
+      "T0124",
+      "대비"
+    ],
+    [
+      "T0125",
+      "T0126",
+      "대비"
+    ],
+    [
+      "T0127",
+      "T0128",
+      "대비"
+    ],
+    [
+      "T0129",
+      "T0130",
+      "대비"
+    ],
+    [
+      "T0137",
+      "T0138",
+      "대비"
+    ],
+    [
+      "T0180",
+      "T0181",
+      "대비"
+    ],
+    [
+      "T0048",
+      "T0026",
+      "구성"
+    ],
+    [
+      "T0048",
+      "T0036",
+      "구성"
+    ],
+    [
+      "T0049",
+      "T0027",
+      "구성"
+    ],
+    [
+      "T0049",
+      "T0037",
+      "구성"
+    ],
+    [
+      "T0050",
+      "T0028",
+      "구성"
+    ],
+    [
+      "T0050",
+      "T0038",
+      "구성"
+    ],
+    [
+      "T0051",
+      "T0029",
+      "구성"
+    ],
+    [
+      "T0051",
+      "T0039",
+      "구성"
+    ],
+    [
+      "T0052",
+      "T0030",
+      "구성"
+    ],
+    [
+      "T0052",
+      "T0040",
+      "구성"
+    ],
+    [
+      "T0053",
+      "T0031",
+      "구성"
+    ],
+    [
+      "T0053",
+      "T0041",
+      "구성"
+    ],
+    [
+      "T0054",
+      "T0032",
+      "구성"
+    ],
+    [
+      "T0054",
+      "T0042",
+      "구성"
+    ],
+    [
+      "T0055",
+      "T0033",
+      "구성"
+    ],
+    [
+      "T0055",
+      "T0043",
+      "구성"
+    ],
+    [
+      "T0056",
+      "T0034",
+      "구성"
+    ],
+    [
+      "T0056",
+      "T0033",
+      "구성"
+    ],
+    [
+      "T0057",
+      "T0035",
+      "구성"
+    ],
+    [
+      "T0057",
+      "T0045",
+      "구성"
+    ],
+    [
+      "T0058",
+      "T0026",
+      "구성"
+    ],
+    [
+      "T0058",
+      "T0046",
+      "구성"
+    ],
+    [
+      "T0059",
+      "T0027",
+      "구성"
+    ],
+    [
+      "T0059",
+      "T0047",
+      "구성"
+    ],
+    [
+      "T0060",
+      "T0028",
+      "구성"
+    ],
+    [
+      "T0060",
+      "T0036",
+      "구성"
+    ],
+    [
+      "T0061",
+      "T0029",
+      "구성"
+    ],
+    [
+      "T0061",
+      "T0037",
+      "구성"
+    ],
+    [
+      "T0062",
+      "T0030",
+      "구성"
+    ],
+    [
+      "T0062",
+      "T0038",
+      "구성"
+    ],
+    [
+      "T0063",
+      "T0031",
+      "구성"
+    ],
+    [
+      "T0063",
+      "T0039",
+      "구성"
+    ],
+    [
+      "T0064",
+      "T0032",
+      "구성"
+    ],
+    [
+      "T0064",
+      "T0040",
+      "구성"
+    ],
+    [
+      "T0065",
+      "T0033",
+      "구성"
+    ],
+    [
+      "T0065",
+      "T0041",
+      "구성"
+    ],
+    [
+      "T0066",
+      "T0034",
+      "구성"
+    ],
+    [
+      "T0066",
+      "T0042",
+      "구성"
+    ],
+    [
+      "T0067",
+      "T0035",
+      "구성"
+    ],
+    [
+      "T0067",
+      "T0043",
+      "구성"
+    ],
+    [
+      "T0068",
+      "T0026",
+      "구성"
+    ],
+    [
+      "T0068",
+      "T0033",
+      "구성"
+    ],
+    [
+      "T0069",
+      "T0027",
+      "구성"
+    ],
+    [
+      "T0069",
+      "T0045",
+      "구성"
+    ],
+    [
+      "T0070",
+      "T0028",
+      "구성"
+    ],
+    [
+      "T0070",
+      "T0046",
+      "구성"
+    ],
+    [
+      "T0071",
+      "T0029",
+      "구성"
+    ],
+    [
+      "T0071",
+      "T0047",
+      "구성"
+    ],
+    [
+      "T0072",
+      "T0030",
+      "구성"
+    ],
+    [
+      "T0072",
+      "T0036",
+      "구성"
+    ],
+    [
+      "T0073",
+      "T0031",
+      "구성"
+    ],
+    [
+      "T0073",
+      "T0037",
+      "구성"
+    ],
+    [
+      "T0074",
+      "T0032",
+      "구성"
+    ],
+    [
+      "T0074",
+      "T0038",
+      "구성"
+    ],
+    [
+      "T0075",
+      "T0033",
+      "구성"
+    ],
+    [
+      "T0075",
+      "T0039",
+      "구성"
+    ],
+    [
+      "T0076",
+      "T0034",
+      "구성"
+    ],
+    [
+      "T0076",
+      "T0040",
+      "구성"
+    ],
+    [
+      "T0077",
+      "T0035",
+      "구성"
+    ],
+    [
+      "T0077",
+      "T0041",
+      "구성"
+    ],
+    [
+      "T0078",
+      "T0026",
+      "구성"
+    ],
+    [
+      "T0078",
+      "T0042",
+      "구성"
+    ],
+    [
+      "T0079",
+      "T0027",
+      "구성"
+    ],
+    [
+      "T0079",
+      "T0043",
+      "구성"
+    ],
+    [
+      "T0080",
+      "T0028",
+      "구성"
+    ],
+    [
+      "T0080",
+      "T0033",
+      "구성"
+    ],
+    [
+      "T0081",
+      "T0029",
+      "구성"
+    ],
+    [
+      "T0081",
+      "T0045",
+      "구성"
+    ],
+    [
+      "T0082",
+      "T0030",
+      "구성"
+    ],
+    [
+      "T0082",
+      "T0046",
+      "구성"
+    ],
+    [
+      "T0083",
+      "T0031",
+      "구성"
+    ],
+    [
+      "T0083",
+      "T0047",
+      "구성"
+    ],
+    [
+      "T0084",
+      "T0032",
+      "구성"
+    ],
+    [
+      "T0084",
+      "T0036",
+      "구성"
+    ],
+    [
+      "T0085",
+      "T0033",
+      "구성"
+    ],
+    [
+      "T0085",
+      "T0037",
+      "구성"
+    ],
+    [
+      "T0086",
+      "T0034",
+      "구성"
+    ],
+    [
+      "T0086",
+      "T0038",
+      "구성"
+    ],
+    [
+      "T0087",
+      "T0035",
+      "구성"
+    ],
+    [
+      "T0087",
+      "T0039",
+      "구성"
+    ],
+    [
+      "T0088",
+      "T0026",
+      "구성"
+    ],
+    [
+      "T0088",
+      "T0040",
+      "구성"
+    ],
+    [
+      "T0089",
+      "T0027",
+      "구성"
+    ],
+    [
+      "T0089",
+      "T0041",
+      "구성"
+    ],
+    [
+      "T0090",
+      "T0028",
+      "구성"
+    ],
+    [
+      "T0090",
+      "T0042",
+      "구성"
+    ],
+    [
+      "T0091",
+      "T0029",
+      "구성"
+    ],
+    [
+      "T0091",
+      "T0043",
+      "구성"
+    ],
+    [
+      "T0092",
+      "T0030",
+      "구성"
+    ],
+    [
+      "T0092",
+      "T0033",
+      "구성"
+    ],
+    [
+      "T0093",
+      "T0031",
+      "구성"
+    ],
+    [
+      "T0093",
+      "T0045",
+      "구성"
+    ],
+    [
+      "T0094",
+      "T0032",
+      "구성"
+    ],
+    [
+      "T0094",
+      "T0046",
+      "구성"
+    ],
+    [
+      "T0095",
+      "T0033",
+      "구성"
+    ],
+    [
+      "T0095",
+      "T0047",
+      "구성"
+    ],
+    [
+      "T0096",
+      "T0034",
+      "구성"
+    ],
+    [
+      "T0096",
+      "T0036",
+      "구성"
+    ],
+    [
+      "T0097",
+      "T0035",
+      "구성"
+    ],
+    [
+      "T0097",
+      "T0037",
+      "구성"
+    ],
+    [
+      "T0098",
+      "T0026",
+      "구성"
+    ],
+    [
+      "T0098",
+      "T0038",
+      "구성"
+    ],
+    [
+      "T0099",
+      "T0027",
+      "구성"
+    ],
+    [
+      "T0099",
+      "T0039",
+      "구성"
+    ],
+    [
+      "T0100",
+      "T0028",
+      "구성"
+    ],
+    [
+      "T0100",
+      "T0040",
+      "구성"
+    ],
+    [
+      "T0101",
+      "T0029",
+      "구성"
+    ],
+    [
+      "T0101",
+      "T0041",
+      "구성"
+    ],
+    [
+      "T0102",
+      "T0030",
+      "구성"
+    ],
+    [
+      "T0102",
+      "T0042",
+      "구성"
+    ],
+    [
+      "T0103",
+      "T0031",
+      "구성"
+    ],
+    [
+      "T0103",
+      "T0043",
+      "구성"
+    ],
+    [
+      "T0104",
+      "T0032",
+      "구성"
+    ],
+    [
+      "T0104",
+      "T0033",
+      "구성"
+    ],
+    [
+      "T0105",
+      "T0033",
+      "구성"
+    ],
+    [
+      "T0105",
+      "T0045",
+      "구성"
+    ],
+    [
+      "T0106",
+      "T0034",
+      "구성"
+    ],
+    [
+      "T0106",
+      "T0046",
+      "구성"
+    ],
+    [
+      "T0107",
+      "T0035",
+      "구성"
+    ],
+    [
+      "T0107",
+      "T0047",
+      "구성"
+    ],
+    [
+      "T0131",
+      "T0121",
+      "포함"
+    ],
+    [
+      "T0131",
+      "T0122",
+      "포함"
+    ],
+    [
+      "T0132",
+      "T0123",
+      "포함"
+    ],
+    [
+      "T0132",
+      "T0124",
+      "포함"
+    ],
+    [
+      "T0133",
+      "T0125",
+      "포함"
+    ],
+    [
+      "T0133",
+      "T0126",
+      "포함"
+    ],
+    [
+      "T0134",
+      "T0127",
+      "포함"
+    ],
+    [
+      "T0134",
+      "T0128",
+      "포함"
+    ],
+    [
+      "T0135",
+      "T0129",
+      "포함"
+    ],
+    [
+      "T0135",
+      "T0130",
+      "포함"
+    ]
+  ],
+  "rules": [
+    {
+      "id": "R01",
+      "title": "육십갑자",
+      "expression": "stem[i mod 10] + branch[i mod 12], i=0..59",
+      "notes": "갑자부터 계해까지 60개. 연월일시 계산 자체는 역법 라이브러리 필요."
+    },
+    {
+      "id": "R02",
+      "title": "오행 상생",
+      "expression": "목>화>토>금>수>목",
+      "notes": "생조 관계"
+    },
+    {
+      "id": "R03",
+      "title": "오행 상극",
+      "expression": "목>토>수>화>금>목",
+      "notes": "제어 관계"
+    },
+    {
+      "id": "R04",
+      "title": "십성 산출",
+      "expression": "일간과 대상 천간의 오행 생극 + 음양 동이 비교",
+      "notes": "식신·편재·편관·편인·비견은 같은 음양, 나머지는 다른 음양"
+    },
+    {
+      "id": "R05",
+      "title": "연주 경계",
+      "expression": "입춘 절입 시각 기준(자평명리 관례)",
+      "notes": "음력 설 기준과 다름; 절입 시각 확인 필요"
+    },
+    {
+      "id": "R06",
+      "title": "월주 경계",
+      "expression": "절기 중 12절의 절입 시각",
+      "notes": "양력 월 1일 기준 아님"
+    },
+    {
+      "id": "R07",
+      "title": "시지",
+      "expression": "자시 23~01시부터 지지별 2시간",
+      "notes": "진태양시 보정 및 자시 날짜 구분은 학파별 차이"
+    },
+    {
+      "id": "R08",
+      "title": "대운",
+      "expression": "성별·연간 음양에 따른 순역 및 절입 거리 계산",
+      "notes": "기산 방식·대운수 반올림은 학파별 차이"
+    }
+  ],
+  "sources": [
+    [
+      "S01",
+      "적천수",
+      "고전",
+      "원문 판본·주석본에 따라 설명이 달라짐"
+    ],
+    [
+      "S02",
+      "궁통보감",
+      "고전",
+      "조후 관련 전통 문헌"
+    ],
+    [
+      "S03",
+      "자평진전",
+      "고전",
+      "격국 관련 전통 문헌"
+    ],
+    [
+      "S04",
+      "전통 명리학 일반 용례",
+      "편집 분류",
+      "용어별 직접 문헌 검증을 완료했다는 뜻이 아님"
+    ]
+  ]
+}

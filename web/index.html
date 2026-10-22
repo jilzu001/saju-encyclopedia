@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="큰 글씨로 읽는 사주명리학 용어 245개. 카테고리와 검색으로 배우고 나의 명식과 연결해 보세요.">
+  <meta name="theme-color" content="#204d42">
+  <title>사주명리학 용어 백과</title>
+  <link rel="stylesheet" href="./style.css">
+  <script defer src="./vendor/lunar.js"></script>
+  <script defer src="./vendor/korean-lunar-calendar.js"></script>
+  <script defer src="./calculator.js"></script>
+  <script defer src="./story.js"></script>
+  <script defer src="./app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#content">본문으로 바로 가기</a>
+  <header>
+    <div class="header-inner">
+      <a class="brand" href="#/">사주명리학 <strong>용어 백과</strong><span>차근차근 읽고 이해하는 명리 이야기</span></a>
+      <div class="font-tools" aria-label="글자 크기 조절">
+        <button id="font-minus" aria-label="글자 작게">가−</button>
+        <output id="font-size" aria-live="polite">20px</output>
+        <button id="font-plus" aria-label="글자 크게">가+</button>
+      </div>
+    </div>
+    <nav aria-label="주 메뉴"><a href="#/">백과 홈</a><a href="#/saju">나의 사주보기</a><a href="#/rules">계산 규칙</a></nav>
+  </header>
+  <div class="search-wrap">
+    <form id="search-form" role="search">
+      <label for="search">어떤 용어가 궁금하세요?</label>
+      <div class="search-row"><input id="search" type="search" placeholder="한글 · 한자 · 설명으로 검색" autocomplete="off"><button class="primary" type="submit">검색</button></div>
+    </form>
+  </div>
+  <div class="layout">
+    <aside id="sidebar" aria-label="카테고리 탐색"><h2>분류로 찾아보기</h2><div id="tree"></div></aside>
+    <main id="content" tabindex="-1" aria-busy="true"><p role="status">용어를 불러오고 있습니다…</p></main>
+  </div>
+  <footer><p>명리학은 전통적인 해석 체계입니다. 이 백과와 사주보기는 학습을 위한 자료이며 미래를 확정적으로 예언하지 않습니다.</p><p>외부 전송 없는 사주 계산 · 회원가입 없음 · 참고 자료와 원문 검증 상태 구분</p></footer>
+</body>
+</html>
