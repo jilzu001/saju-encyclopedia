@@ -1,5 +1,9 @@
 # 사주명리학 용어 백과
 
+공개 사이트: https://jilzu001.github.io/saju-encyclopedia/
+
+저장소: https://github.com/jilzu001/saju-encyclopedia
+
 `DEVELOPMENT_SPEC.md`를 최상위 명세로 적용했습니다. 사용자의 후속 요청에 따라 사주 계산과 짧은 8장 읽기를 추가했습니다. 원본 명세는 그대로 보존하며 변경 범위는 `SCOPE_UPDATES.md`에 기록합니다.
 
 ## 이용 방법
