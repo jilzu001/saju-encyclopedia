@@ -1,4 +1,4 @@
-(function(root,factory){if(typeof module==='object'&&module.exports)module.exports=factory(require('./reading-model.js'),require('./calculator.js'));else root.QuickReading=factory(root.ReadingModel,root.SajuCalculator)})(typeof globalThis!=='undefined'?globalThis:this,function(R,C){
+(function(root,factory){if(typeof module==='object'&&module.exports)module.exports=factory(require('./reading-model.js'),require('./calculator.js'),require('./plain-reading.js'));else root.QuickReading=factory(root.ReadingModel,root.SajuCalculator,root.PlainReading)})(typeof globalThis!=='undefined'?globalThis:this,function(R,C,P){
  'use strict';
  // Original short-form copy. These are symbolic readings, not measured traits.
  const voices={
@@ -19,13 +19,13 @@
   const basis=['내 일간 '+data.dayName+' ('+data.dayStem+')와 일지 '+data.pillars[2].pair[1]+'의 상징을 바탕으로 새로 쓴 짧은 해설입니다.'];
   const visibleGroup=group=>profile.visibleGods.find(g=>R.editorial.gods[g.name].group===group);
   const money=visibleGroup('재성'),work=visibleGroup('관성')||visibleGroup('식상')||visibleGroup('인성')||profile.visibleGods[0];
-  const cycle=data.cycles?.decades.find(c=>c.startYear<=annual.year&&c.endYear>=annual.year),cycleGod=cycle?R.editorial.gods[cycle.god]:null;
+  const cycle=data.cycles?.decades.find(c=>c.startYear<=annual.year&&c.endYear>=annual.year),cycleGod=cycle?P.god(cycle.god):null;
   const cards=[
    card('self','나다운 모습',voice.title,profile.dayHook,profile.stem.scene,basis),
    card('money','돈과 선택',voice.money[0],voice.money[1],money?R.editorial.gods[money.name].scene:profile.stem.money,[...basis,...(money?[money.position+' '+money.stem+'와 일간의 관계: '+money.name+'.']:['표면의 재성 유무를 재산이나 부의 크기로 판정하지 않았습니다.'])]),
    card('work','일하는 나',voice.work[0],voice.work[1],R.editorial.gods[work.name].scene,[...basis,work.position+' '+work.stem+'와 일간의 관계: '+work.name+'.']),
    card('people','사랑과 관계',voice.people[0],voice.people[1],profile.branch[2]+'도 챙겨 보세요.',basis),
-   card('year',annual.year+'년의 나',annual.hook,annual.scene,annual.action,[annual.year+'년 '+annual.name+' ('+annual.pair+'). 연간과 내 일간의 관계: '+annual.god+'.','입춘부터 다음 입춘 전까지의 연간지를 기준으로 합니다. 실제 사건을 예측한 문장이 아닙니다.']),
+   card('year',annual.year+'년의 나',P.god(annual.god).label,P.god(annual.god).meaning,P.god(annual.god).scene,[annual.year+'년 '+annual.name+' ('+annual.pair+'). 연간과 내 일간의 관계: '+annual.god+'.','입춘부터 다음 입춘 전까지의 연간지를 기준으로 합니다. 실제 사건을 예측한 문장이 아닙니다.']),
    card('flow','긴 인생의 흐름',cycle?cycleGod.hook:data.unknown?'긴 흐름은,\n시간을 알면 이어 볼게요.':!data.cycles?'내 인생의 긴 호흡도\n궁금하다면.':'이 시기는 긴 흐름의\n표시 범위 밖이에요.',cycle?cycleGod.scene:data.unknown?'태어난 시간을 몰라 10년 단위 흐름은 계산하지 않았어요.':!data.cycles?'입력 바꾸기에서 계산에 사용할 성별을 골라 주세요.':'자세한 풀이에서 제공하는 10년 단위 구간을 확인해 주세요.',cycle?cycle.startYear+'~'+cycle.endYear+'년 · '+cycleGod.action:'입력을 채우면 같은 화면에서 이어 볼 수 있어요.',cycle?['대운 '+cycle.name+' ('+cycle.pair+'), 천간과 일간의 관계 '+cycle.god+'.','연 단위 구간입니다. 정확한 교체일과 실제 삶의 전환은 같다고 단정하지 않습니다.']:['시간과 성별을 입력해야 기존 규칙으로 대운을 계산합니다.']),
    card('takeaway','나에게 한마디','잘하는 만큼,\n나도 챙겨 주세요.',profile.stem.friction,profile.stem.action,basis)
   ];
