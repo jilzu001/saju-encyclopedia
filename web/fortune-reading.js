@@ -41,7 +41,7 @@
  function read(data,options={}){
   const state=normalize(options),q=Q.read(data,state.year),year=transit(data,pairsAt(L.Solar.fromYmdHms(state.year,7,1,12,0,0)).year,state.year+'년'),date=L.Solar.fromYmdHms(state.year,state.month,state.day,12,0,0),day=transit(data,pairsAt(date,data.sect).day,date.toYmd()+' 일진'),monthSegments=months(data,state),month=monthSegments.find(s=>s.start<=date.toYmdHms()&&date.toYmdHms()<s.end)||monthSegments[0];
   const cycleList=data.cycles?.decades||[],active=cycleList.find(c=>c.startYear<=state.year&&c.endYear>=state.year),chosen=state.decade===undefined?active:cycleList.find(c=>c.startYear===Number(state.decade)),cycle=chosen?{...transit(data,chosen.pair,chosen.startYear+'~'+chosen.endYear+'년 대운'),...chosen}:null;
-  const monthGod=data.pillars[1].god,baseGroup=group(monthGod),self={...q.cards[0],title:'내 운세,\n궁금한 것부터.',body:state.year+'년은 ‘'+year.theme+'’을 중심으로 읽는 해예요. 돈·일·사람과 매일의 흐름을 아래에서 골라 보세요.',label:'한눈에 보기',sections:[]};
+  const monthGod=data.pillars[1].god,baseGroup=group(monthGod),self={...q.cards[0],title:'내 운세,\n궁금한 것부터.',body:state.year+'년 키워드는 ‘'+year.theme+'’. 궁금한 운세부터 골라 보세요.',label:'한눈에 보기',sections:[]};
   const cards=[self];
   for(const [id,label,question,wanted,fallback] of topics){
    const facts=evidenceFor(data,wanted),focus=facts.find(f=>!f.hidden)||facts[0],g=focus?group(focus.god):baseGroup,entry=life[id]?.[g],sections=[],evidence=['태어난 달 '+data.pillars[1].korean+' ('+data.pillars[1].pair+'), 월간과 일간 관계 '+monthGod+'.',...facts.map(f=>f.position+(f.hidden?' 안쪽 글자 ':' 겉글자 ')+f.stem+' · '+f.god)];let title=entry?.[0]||question,body=entry?.[1]||'';
