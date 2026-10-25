@@ -35,7 +35,7 @@ test('decade selection uses computed cycles, and unknown time never invents a cy
  const unknown=F.read(C.calculate({year:1979,month:10,day:11,unknown:true}),{year:2026,month:10,day:25});assert.equal(unknown.cycle,null);assert.equal(unknown.cycleList.length,0);assert.match(unknown.cards.find(c=>c.id==='family').sections.map(s=>s.text).join(''),/마지막 칸은 계산하지/);
 });
 test('selected years and daily dates change actual fortune themes, without invented scores or medical diagnoses',()=>{
- const a=F.read(birth,{year:2026,month:10,day:25}),b=F.read(birth,{year:2027,month:10,day:26});assert.notEqual(a.annual.pair,b.annual.pair);assert.notEqual(a.day.pair,b.day.pair);
+ const a=F.read(birth,{year:2026,month:10,day:25}),b=F.read(birth,{year:2027,month:10,day:26});assert.notEqual(a.annual.pair,b.annual.pair);assert.notEqual(a.cards.find(c=>c.id==='money').sections.at(-1).text,b.cards.find(c=>c.id==='money').sections.at(-1).text);assert.notEqual(a.day.pair,b.day.pair);
  assert.notEqual(a.cards.find(c=>c.id==='year').title,b.cards.find(c=>c.id==='year').title);assert.notEqual(a.cards.find(c=>c.id==='day').title,b.cards.find(c=>c.id==='day').title);
  assert.match(a.cards.find(c=>c.id==='health').body,/병명·수명 예측 대신/);assert.ok(!/운세 점수|성공 확률|당첨 확률/.test(JSON.stringify(a)));
 });
