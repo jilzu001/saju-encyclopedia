@@ -62,7 +62,7 @@ function guidePage(){
 function errorPage(){main.append(node('h1','찾는 페이지가 없습니다'),p('용어 주소를 확인하거나 홈에서 다시 찾아 주세요.'),link('내 사주보기','#/','button'),button('뒤로 가기',()=>history.back()))}
 function selectField(label,id,values){const wrap=node('div'),l=node('label',label);l.htmlFor=id;const input=node('select');input.id=id;input.name=id;for(const [v,text] of values){const opt=node('option',text);opt.value=v;input.append(opt)}wrap.append(l,input);return {wrap,input}}
 function saju(){
- main.append(p('내 사주 이야기','eyebrow'),node('h1','나는 어떤 사람일까?'),p('생일을 넣으면, 내 이야기가 한 장씩 펼쳐져요.','notice'),p('입력 내용은 전송·저장하지 않습니다.','notice'));
+ main.append(p('내 사주 이야기','eyebrow'),node('h1','내 운세, 무엇이 궁금하세요?'),p('대운·연운·월운·일진부터 돈·일·관계까지, 궁금한 주제를 골라 보세요.','notice'),p('입력 내용은 전송·저장하지 않습니다.','notice'));
  const form=node('form');form.id='saju-form';form.autocomplete='off';const fs=node('fieldset'),legend=node('legend','1. 태어난 날짜와 시간');fs.append(legend);const grid=node('div',null,'form-grid');
  const cal=selectField('달력 구분','calendar',[['solar','양력'],['lunar','음력 (한국 음력)']]);grid.append(cal.wrap);
  const birthYear=selectField('태어난 연도','birth-year',[['','연도 선택'],...BirthOptions.years(new Date().getFullYear()).map(y=>[String(y),y+'년'])]);birthYear.input.required=true;grid.append(birthYear.wrap);
@@ -72,7 +72,7 @@ function saju(){
  const birthHour=selectField('시','birth-hour',[['','시 선택'],...Array.from({length:24},(_,h)=>[String(h),(h<12?'오전 ':'오후 ')+(h%12||12)+'시'])]);birthHour.input.required=true;
  const birthMinute=selectField('분','birth-minute',Array.from({length:60},(_,m)=>[String(m),String(m).padStart(2,'0')+'분']));birthMinute.input.required=true;
  timeRow.append(birthHour.wrap,birthMinute.wrap);timeWrap.append(timeRow);grid.append(timeWrap);
- const sex=selectField('긴 흐름 계산에 사용할 성별','gender',[['none','선택 안 함'],['male','남성'],['female','여성']]);grid.append(sex.wrap);
+ const sex=selectField('대운 계산용 성별','gender',[['none','선택 안 함'],['male','남성'],['female','여성']]);grid.append(sex.wrap);
  const sect=selectField('하루가 바뀌는 기준','sect',[['1','밤 11시 (기본)'],['2','밤 12시']]);fs.append(grid);
  const help=p('날짜와 시간을 눌러 선택하세요. 한국 표준시 기준입니다.','notice');help.id='date-help';fs.append(help);
  const leapLabel=node('label',null,'check-label'),leap=node('input');leap.type='checkbox';leap.id='leap';leapLabel.append(leap,document.createTextNode('음력 윤달입니다'));leapLabel.hidden=true;fs.append(leapLabel);
